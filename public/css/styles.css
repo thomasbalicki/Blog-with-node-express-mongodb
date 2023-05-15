@@ -1,0 +1,92 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  background-color: #333333;
+  /* Set a dark background color */
+  color: #ffffff;
+  /* Set a light text color */
+  background-image: -webkit-linear-gradient(65deg, #424141 50%, #333333 50%);
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-family: 'Bebas Neue', sans-serif;
+  background-color: #222222;
+  /* Set a dark background color for the navbar */
+}
+
+.navbar-nav li a:hover {
+  color: #57d157 !important;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #222222;
+  /* Set a dark background color for the footer */
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #ffffff;
+  /* Set a light text color for the footer */
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #ffffff;
+  /* Set a light text color for the headings */
+}
+
+/* Subtle hints of green */
+a {
+  color: #9dff9d;
+  /* Set a subtle green color for links */
+}
+
+a:hover {
+  color: #57d157;
+  /* Set a slightly brighter green color for links on hover */
+}
+
+.btn-green {
+  background-color: #57d157;
+  color: #222222;
+  border: none;
+  outline: none;
+}
+
+.btn-green:hover {
+  background-color: #9dff9d;
+  color: #222222;
+}
+
+#home a {
+  color: #57d157;
+}
